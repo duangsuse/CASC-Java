@@ -1,6 +1,7 @@
 src/
 target/
 pom.xml
+mvng_examples/*.xml
 
 pom.xml.tag
 pom.xml.releaseBackup

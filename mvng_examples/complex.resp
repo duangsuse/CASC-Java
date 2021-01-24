@@ -1,0 +1,16 @@
+a:b:c
+org.h:a,-w,--w1:1.0
+-dependencyManagement
+org.junit:--bom,:5.7.0
+-plug
+:wtf
+-parent
+org.my:base
+-module
+hello
+-xi
+0
+-x
+parent=text:a:v
+-x
+.=eval:listE("contributor",opOnEach(opSetsChild("name"),["a"]))

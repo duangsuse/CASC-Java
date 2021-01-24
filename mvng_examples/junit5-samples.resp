@@ -1,0 +1,9 @@
+com.example:junit5-jupiter-starter-maven:1.0-SNAPSHOT
+org.junit.jupiter:junit-jupiter:::test
+-plug
+:maven-surefire-plugin:2.22.2
+-dependencyManagement
+org.junit:--bom,:5.7.0
+-x .=new:properties
+-x properties=text:project.build.sourceEncoding:UTF-8
+-fat

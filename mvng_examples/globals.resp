@@ -1,0 +1,3 @@
+see:above
+-x
+.=eval:also(lambda*a:print("\n".join(globals())),E("above"))
